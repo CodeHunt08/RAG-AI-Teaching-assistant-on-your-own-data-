@@ -39,6 +39,24 @@ Video → Audio → Text → Chunks → Embeddings → Ask → Get Answer
 
 - Joblib to store embeddings
 
+## Current Status & What I plan to add later
+
+This project is not fully completed yet.
+Right now it only takes videos → audio → text → embeddings, but I want to improve it more.
+Some things that I still want to work on:
+
+- Add support for PDF, Word files, notes and slides
+
+- Convert those files into chunks the same way as video text
+
+- Improve accuracy by trying a better LLM
+
+- Planning to integrate Gemini/OpenAI API for better quality answers
+
+- Maybe build a simple chat UI so anyone can ask questions easily
+
+So this is kind of a base version. The main RAG pipeline is working, but I will improve it step by step.
+
 # How to use this RAG AI Teaching assistant on your own data 
 ## Step 1 - Collect your videos
 Move all your videos files to the videos folderr
@@ -55,4 +73,5 @@ Use the file preprocess_json.py to convert the json files to a dataframe with Em
 ## step 5 - Prompt generation and feeding ro LLM
 
 Read the joblib file and load it into the memory . then create a relevant prompt as per the user query and feed it to the LLM
+
 
