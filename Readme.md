@@ -1,9 +1,9 @@
-# RAG Based AI Teaching Assistant (Built on My Own Video Lectures)
+# RAG Based AI Teaching Assistant
 
 This is a project where I tried to create an AI that learns from my own study videos.
-Instead of using Google or internet knowledge, the model answers questions only from the lectures that I uploaded.
+Instead of using internet knowledge, the model answers questions only from the lectures that I uploaded.
 
-I basically turned my video lectures into text, created embeddings, and then used similarity search to get the most relevant chunks. Finally the model generates an answer from that data — like a mini personal tutor.
+I basically turned video lectures into text, created embeddings, and then used similarity search to get the most relevant chunks. Finally the model generates an answer from that data — like a mini personal tutor.
 
 ## What this project does
 
@@ -55,3 +55,4 @@ Use the file preprocess_json.py to convert the json files to a dataframe with Em
 ## step 5 - Prompt generation and feeding ro LLM
 
 Read the joblib file and load it into the memory . then create a relevant prompt as per the user query and feed it to the LLM
+
