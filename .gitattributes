@@ -1,1 +1,5 @@
 embeddings.joblib filter=lfs diff=lfs merge=lfs -text
+videos filter=lfs diff=lfs merge=lfs -text
+videos/SEO[[:space:]]and[[:space:]]Core[[:space:]]Web[[:space:]]Vitals[[:space:]]in[[:space:]]HTML[[:space:]]Sigma[[:space:]]Web[[:space:]]Development[[:space:]]Course[[:space:]]-[[:space:]]Tutorial[[:space:]]\#6 filter=lfs diff=lfs merge=lfs -text
+videos/Video,[[:space:]]Audio[[:space:]]&[[:space:]]Media[[:space:]]in[[:space:]]HTML[[:space:]]Sigma[[:space:]]Web[[:space:]]Development[[:space:]]Course[[:space:]]-[[:space:]]Tutorial[[:space:]]\#10[[:space:]][XZwBNDGuWGU] filter=lfs diff=lfs merge=lfs -text
+videos/Your[[:space:]]First[[:space:]]HTML[[:space:]]Sigma[[:space:]]Web[[:space:]]Development[[:space:]]Course[[:space:]]-[[:space:]]Tutorial[[:space:]]\#2 filter=lfs diff=lfs merge=lfs -text
